@@ -20,17 +20,18 @@ Navigation between pages is handled with bookmark/button-based back-forward cont
 
 ## Screenshots
 
-| Cover | Overview | Agent Analysis |
-|---|---|---|
-| ![Cover](Images/Cover.png) | ![Overview](Images/Overview.png) | ![Agent Analysis](Images/Agent-Analysis.png) |
+Cover
 
-## Demo Video
+![Cover](Images/Cover.png) 
+ 
+Overview 
 
-A short walkthrough of the dashboard's interactivity (slicers, navigation, drill-down):
+![Overview](Images/Overview.png)
 
-https://github.com/USERNAME/REPO_NAME/assets/demo.mp4
+Agent Analysis 
 
-> GitHub doesn't render local video files inline in the README preview — either upload the video by dragging it into a GitHub issue/PR comment first (GitHub will host it and give you a permanent `user-images`/`assets` URL to paste here), or link to it if hosted elsewhere (YouTube, Drive).
+![Agent Analysis](Images/Agent-Analysis.png)
+
 
 ---
 
