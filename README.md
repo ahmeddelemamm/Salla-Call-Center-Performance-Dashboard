@@ -22,7 +22,7 @@ Navigation between pages is handled with bookmark/button-based back-forward cont
 
 | Cover | Overview | Agent Analysis |
 |---|---|---|
-| ![Cover](screenshots/cover.png) | ![Overview](screenshots/overview.png) | ![Agent Analysis](screenshots/agent-analysis.png) |
+| ![Cover](Images/Cover.png) | ![Overview](Images/Overview.png) | ![Agent Analysis](Images/Agent-Analysis.png) |
 
 ## Demo Video
 
