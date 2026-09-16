@@ -35,16 +35,6 @@ Agent Analysis
 
 ---
 
-## Data Model
-
-The dataset is a single flat table (one row per agent/project/month) containing: Agent Name, Project, Month, Calls Offered, Calls Handled, Calls Abandoned, ASA (Average Speed of Answer), and Efficiency.
-
-**Note on design choice:** at this scale (16 agents × 3 months), a flat/denormalized table is fine — it avoids unnecessary relationship overhead for a dataset this small. At a larger scale (multi-year data, hundreds of agents, multiple call queues), this would be restructured into a star schema: a `Fact_Calls` table plus `Dim_Agent`, `Dim_Project`, and `Dim_Date` dimension tables. This keeps the model performant and makes time-intelligence functions (MTD, QTD, YoY) straightforward, which flat tables make awkward.
-
-A `Month Number` column with a "Sort by Column" applied to `Month` is required so charts order Feb → Mar → Apr chronologically instead of alphabetically.
-
----
-
 ## KPI Definitions & DAX Measures
 
 > Adjust table/column names below to match your actual model — these reflect standard definitions for each metric.
@@ -108,7 +98,7 @@ CALCULATE(
 
 ## Tools Used
 
-- Power BI Desktop (data modeling, DAX, visuals)
+- Power BI Desktop (DAX, visuals)
 - DAX for all KPI calculations
 - Bookmarks and buttons for page navigation
 
